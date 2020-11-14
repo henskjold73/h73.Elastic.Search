@@ -1,0 +1,10 @@
+{
+  "elasticsearch": {
+    "protocol": "https",
+    "host": "elastic.ci.service.esmartapi.com",
+    "port": 443,
+    "tenant": "test",
+    "username": "elasticuser",
+    "password": "rQuz9lx1BacXkHGSUHsP9n9e"
+  }
+}

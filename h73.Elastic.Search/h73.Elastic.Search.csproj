@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>henskjold73</Authors>
+    <Company>h73</Company>
+    <Description>h73 elastic elasticsearch search index search</Description>
+    <Copyright>h73 2020</Copyright>
+    <PackageIcon>img.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>h73 elastic elasticsearch search index search</PackageTags>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Json\**" />
+    <EmbeddedResource Remove="Json\**" />
+    <None Remove="Json\**" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="img.png" Pack="true" PackagePath=""/>
+    <PackageReference Include="h73.Elastic.Core" Version="1.0.0" />
+    <PackageReference Include="morelinq" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
