@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "h73.Elastic.Search", "h73.E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "h73.Elastic.Search.Tests", "h73.Elastic.Search.Tests\h73.Elastic.Search.Tests.csproj", "{CFC3AC56-13CD-48FF-9D62-48568DE9303F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "h73.Elastic.Search.IntegrationTests", "h73.Elastic.Search.IntegrationTests\h73.Elastic.Search.IntegrationTests.csproj", "{5DAAB862-8E27-4F11-8C27-5A1AEA364906}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CFC3AC56-13CD-48FF-9D62-48568DE9303F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFC3AC56-13CD-48FF-9D62-48568DE9303F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFC3AC56-13CD-48FF-9D62-48568DE9303F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAAB862-8E27-4F11-8C27-5A1AEA364906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAAB862-8E27-4F11-8C27-5A1AEA364906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAAB862-8E27-4F11-8C27-5A1AEA364906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAAB862-8E27-4F11-8C27-5A1AEA364906}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

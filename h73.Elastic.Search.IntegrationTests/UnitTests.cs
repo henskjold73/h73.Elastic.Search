@@ -1,25 +1,23 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading;
 using Bogus;
-using eSmart.Elastic.Core;
-using eSmart.Elastic.Core.Enums;
-using eSmart.Elastic.Core.Helpers;
-using eSmart.Elastic.Core.Search.Aggregations;
-using eSmart.Elastic.Core.Search.Interfaces;
-using eSmart.Elastic.Search.Helpers;
-using eSmart.Elastic.TypeMapping;
+using h73.Elastic.Core;
+using h73.Elastic.Core.Enums;
+using h73.Elastic.Core.Helpers;
+using h73.Elastic.Core.Search.Aggregations;
+using h73.Elastic.Search.Helpers;
+using h73.Elastic.TypeMapping;
 using FizzWare.NBuilder;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MoreLinq;
-using Newtonsoft.Json;
 
-namespace eSmart.Elastic.Search.IntegrationTests
+namespace h73.Elastic.Search.IntegrationTests
 {
     [TestClass]
+    [Ignore("No host atm")]
     public class UnitTests
     {
         ElasticClient _client;
@@ -113,6 +111,7 @@ namespace eSmart.Elastic.Search.IntegrationTests
 
             var result = new DocumentSearch<Customer>().Search(_client, q);
             var b = result.Aggregations["agg_DateHistogram"].Buckets.Where(x=>x.Nested.Buckets.Any());
+            Assert.IsNotNull(b);
         }
     }
 }

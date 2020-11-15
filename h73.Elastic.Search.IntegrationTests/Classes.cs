@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace eSmart.Elastic.Search.IntegrationTests
+namespace h73.Elastic.Search.IntegrationTests
 {
     public class Customer
     {

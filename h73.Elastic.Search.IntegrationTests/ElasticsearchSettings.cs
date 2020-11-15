@@ -1,4 +1,4 @@
-﻿namespace eSmart.Elastic.Search.IntegrationTests
+﻿namespace h73.Elastic.Search.IntegrationTests
 {
     public class ElasticsearchSettings
     {

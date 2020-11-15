@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace eSmart.Elastic.Search.IntegrationTests
+namespace h73.Elastic.Search.IntegrationTests
 {
     public static class IntegrationTestHelper
     {

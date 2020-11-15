@@ -1,7 +1,7 @@
 {
   "elasticsearch": {
     "protocol": "https",
-    "host": "elastic.ci.service.esmartapi.com",
+    "host": "elastic.ci.service.h73api.com",
     "port": 443,
     "tenant": "test",
     "username": "elasticuser",

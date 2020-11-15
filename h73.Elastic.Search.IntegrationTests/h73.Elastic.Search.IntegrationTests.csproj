@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\eSmart.Elastic.Search\eSmart.Elastic.Search.csproj" />
+    <ProjectReference Include="..\h73.Elastic.Search\h73.Elastic.Search.csproj" />
   </ItemGroup>
 
   <ItemGroup>
