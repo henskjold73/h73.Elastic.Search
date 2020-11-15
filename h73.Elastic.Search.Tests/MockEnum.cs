@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [Flags]
     public enum MockEnum

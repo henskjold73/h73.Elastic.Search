@@ -1,6 +1,4 @@
-﻿using eSmart.Core;
-
-namespace eSmart.Elastic.Search.Tests.Support
+﻿namespace h73.Elastic.Search.Tests.Support
 {
     public class VoltageQualityEvent : Event
     {
@@ -13,7 +11,7 @@ namespace eSmart.Elastic.Search.Tests.Support
             Asset = asset;
         }
 
-        public new VoltageAsset Asset { get; set; }
+        public VoltageAsset Asset { get; set; }
         public double Voltage { get; set; }
         public double VoltagePercentage { get; set; }
     }

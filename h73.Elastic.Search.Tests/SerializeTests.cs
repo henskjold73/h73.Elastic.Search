@@ -1,12 +1,11 @@
 ﻿using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using eSmart.EarthFault;
-using eSmart.EarthFault.Categories;
-using eSmart.Elastic.Core.Enums;
+using h73.Elastic.Core.Enums;
+using h73.Elastic.Search.Tests.Support;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class SerializeTests

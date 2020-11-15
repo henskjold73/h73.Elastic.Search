@@ -13,7 +13,7 @@
     "hits": [
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "96ccb84b-cc29-4a5c-a914-818208bda15a",
         "_score": 3.0,
         "_source": {
@@ -475,7 +475,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "28325fdb-ddfb-490b-8f47-73bb26feb5c6",
         "_score": 3.0,
         "_source": {
@@ -829,7 +829,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "9eea2b4d-a23e-40c8-b7aa-e7e0db67a51c",
         "_score": 3.0,
         "_source": {
@@ -1134,7 +1134,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "72a9260f-8c75-4293-9a02-440ccf032a5f",
         "_score": 3.0,
         "_source": {
@@ -1659,7 +1659,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "67aef30f-76fe-43cc-adb4-f50bfa939041",
         "_score": 3.0,
         "_source": {
@@ -1995,7 +1995,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "72638a43-5902-4743-86eb-0c3c05be0bab",
         "_score": 3.0,
         "_source": {
@@ -2331,7 +2331,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "8040582a-0a72-46e7-8df1-513437b4ff2a",
         "_score": 3.0,
         "_source": {
@@ -2854,7 +2854,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "47eff3ab-500d-44a2-a96c-0f21af8c79dd",
         "_score": 3.0,
         "_source": {
@@ -3190,7 +3190,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "11c7cfa9-6a99-4525-8d60-a580bc8eac19",
         "_score": 3.0,
         "_source": {
@@ -3512,7 +3512,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "4017dec5-c099-481b-9397-d594deeed9fb",
         "_score": 3.0,
         "_source": {
@@ -3820,7 +3820,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "bd4d3860-53e4-4c3c-a832-c132369eaabe",
         "_score": 3.0,
         "_source": {
@@ -4345,7 +4345,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "728e2996-474c-4add-8b2c-61584af6eb8c",
         "_score": 3.0,
         "_source": {
@@ -4729,7 +4729,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "c6958805-1088-46e1-b722-436c547d43ad",
         "_score": 3.0,
         "_source": {
@@ -5034,7 +5034,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "f3477bbf-7377-4679-9d89-7cf7ba130d86",
         "_score": 3.0,
         "_source": {
@@ -5325,7 +5325,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "35a56ef0-4440-40dc-b56b-9a8b5cc5001f",
         "_score": 3.0,
         "_source": {
@@ -5616,7 +5616,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "565bfa62-24f3-424f-af9e-ba3275973442",
         "_score": 3.0,
         "_source": {
@@ -5907,7 +5907,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "3c2eb9a7-22ba-4c90-927e-ba42fa9abf55",
         "_score": 3.0,
         "_source": {
@@ -6293,7 +6293,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "07e27672-13ba-4ac6-804b-5b57094d3657",
         "_score": 3.0,
         "_source": {
@@ -6634,7 +6634,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "e4322979-f4f3-4c7d-8a30-9ea161d406b5",
         "_score": 3.0,
         "_source": {
@@ -7158,7 +7158,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "c3ed6e61-e71f-4e5a-b1ae-9655c8063c53",
         "_score": 3.0,
         "_source": {
@@ -7527,7 +7527,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "d6c8f43c-4c85-4909-9c95-eea519664694",
         "_score": 3.0,
         "_source": {
@@ -7835,7 +7835,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "4c71d92a-6458-4ed7-a05b-8e8c02580d02",
         "_score": 3.0,
         "_source": {
@@ -8359,7 +8359,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "727ba848-07e1-4964-a7b5-3b05a1ecccd6",
         "_score": 3.0,
         "_source": {
@@ -8650,7 +8650,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "131065bb-57a1-4877-8305-da27b66ba6b2",
         "_score": 3.0,
         "_source": {
@@ -9636,7 +9636,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "f4f15064-f67b-49cb-8995-d7354f417286",
         "_score": 3.0,
         "_source": {
@@ -10114,7 +10114,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "5e2f379c-afa2-4fa1-8d0d-900aa8f94282",
         "_score": 3.0,
         "_source": {
@@ -10638,7 +10638,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "40847c8b-e6db-40ff-92d6-cbf828573ff9",
         "_score": 3.0,
         "_source": {
@@ -10974,7 +10974,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "51b95e8d-0250-4892-903c-61bdeccc8cde",
         "_score": 3.0,
         "_source": {
@@ -11282,7 +11282,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "2a0939f7-c380-412f-91ad-dc0d74cf2eff",
         "_score": 3.0,
         "_source": {
@@ -11573,7 +11573,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "3c055fa8-58b0-4414-aca1-00e491445b29",
         "_score": 3.0,
         "_source": {
@@ -12168,7 +12168,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "400fd78d-554f-4ebb-8d87-e8ef416cfa7c",
         "_score": 3.0,
         "_source": {
@@ -12692,7 +12692,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "89fca9bd-5a82-449a-9006-1bea2b20bb01",
         "_score": 3.0,
         "_source": {
@@ -12997,7 +12997,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "dcc73265-d854-40c2-bcce-16620c8e9692",
         "_score": 3.0,
         "_source": {
@@ -13302,7 +13302,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "da100dd7-5609-4370-828c-1b93622ce9cb",
         "_score": 3.0,
         "_source": {
@@ -13610,7 +13610,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "41e980bf-4773-40ab-8ae2-470593f2647b",
         "_score": 3.0,
         "_source": {
@@ -13946,7 +13946,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "a1afa5a5-a335-46ca-acc1-a714bedc4507",
         "_score": 3.0,
         "_source": {
@@ -14237,7 +14237,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "a6679247-dab1-4461-8dc8-755f8ac10dad",
         "_score": 3.0,
         "_source": {
@@ -14528,7 +14528,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "28e5a47a-9e66-4026-a8ce-999a7459d9c3",
         "_score": 3.0,
         "_source": {
@@ -14850,7 +14850,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "ed418626-baa6-489a-939c-2b2e3abb27b0",
         "_score": 3.0,
         "_source": {
@@ -15141,7 +15141,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "341fbab4-d8fa-49ab-bd09-07dcb7e2b13c",
         "_score": 3.0,
         "_source": {
@@ -15463,7 +15463,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "41173f4c-4ffb-4d19-a9ef-84573f1e5d55",
         "_score": 3.0,
         "_source": {
@@ -15768,7 +15768,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "ef0cf08d-1dfd-489e-af9b-d43309b95016",
         "_score": 3.0,
         "_source": {
@@ -16073,7 +16073,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "312fcccb-56e3-46ca-b8c5-626f9de35f8a",
         "_score": 3.0,
         "_source": {
@@ -16378,7 +16378,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "884db343-7dd6-4858-a036-4a1f51a9a7a4",
         "_score": 3.0,
         "_source": {
@@ -16683,7 +16683,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "0c49efe9-bd8f-4389-942d-f4f64c927c1c",
         "_score": 3.0,
         "_source": {
@@ -17019,7 +17019,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "c49835c3-c4d6-421d-b7b7-f68d2266df66",
         "_score": 3.0,
         "_source": {
@@ -17310,7 +17310,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "c5cb4547-f564-4ac5-81eb-bda358db41e5",
         "_score": 3.0,
         "_source": {
@@ -17693,7 +17693,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "500e9af0-91f1-4159-97e1-d3c330c38ac3",
         "_score": 3.0,
         "_source": {
@@ -17998,7 +17998,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "6f5c5b75-e207-453a-8864-cce0db5d98fa",
         "_score": 3.0,
         "_source": {
@@ -18289,7 +18289,7 @@
       },
       {
         "_index": "dev_assets",
-        "_type": "eSmart.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
+        "_type": "h73.Common.DataModel.BusinessObject.Asset.Meter.AmiMeter",
         "_id": "f4da80ed-49e9-4651-baff-c19ee5c574c1",
         "_score": 3.0,
         "_source": {

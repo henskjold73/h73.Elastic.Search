@@ -1,9 +1,7 @@
 ﻿using System;
-using eSmart.Elastic.Core.Data;
-using eSmart.GroundFault;
 using MoreLinq;
 
-namespace eSmart.Core
+namespace h73.Elastic.Search.Tests.Support
 {
     public class Event : AmiMeter
     {

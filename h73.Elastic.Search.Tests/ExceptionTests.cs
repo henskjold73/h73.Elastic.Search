@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using eSmart.Elastic.Core;
+using h73.Elastic.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class ExceptionTests

@@ -1,11 +1,10 @@
 ﻿using System.Linq;
-using eSmart.Core;
-using eSmart.EarthFault;
-using eSmart.Elastic.Core.Json;
+using h73.Elastic.Core.Json;
+using h73.Elastic.Search.Tests.Support;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 
-namespace eSmart.Elastic.Search.Tests.ResultTests
+namespace h73.Elastic.Search.Tests.ResultTests
 {
     [TestClass]
     [TestCategory("Result")]
@@ -65,8 +64,8 @@ namespace eSmart.Elastic.Search.Tests.ResultTests
                        "{\"total\":399,\"max_score\":0,\"hits\":[]},\"aggregations\":{\"terms_Asset.Name\":{\"doc_count_error_upper_bound\":" +
                        "6,\"sum_other_doc_count\":396,\"buckets\":[{\"key\":\"A063\",\"doc_count\":3,\"nested\":{\"doc_count_error_upper_bound\":" +
                        "0,\"sum_other_doc_count\":0,\"buckets\":[{\"key\":\"EarthFaultRen1\",\"doc_count\":1,\"TopHits\":{\"hits\":" +
-                       "{\"total\":1,\"max_score\":null,\"hits\":[{\"_index\":\"esmartdev_esmart_earthfault_earthfaultevent\",\"_type\":" +
-                       "\"eSmart.EarthFault.EarthFaultEvent\",\"_id\":\"323e3b4b-bbef-42be-b4e4-e0768f2302f9_EarthFaultRen1_636777437920937727\"," +
+                       "{\"total\":1,\"max_score\":null,\"hits\":[{\"_index\":\"h73dev_h73_earthfault_earthfaultevent\",\"_type\":" +
+                       "\"h73.EarthFault.EarthFaultEvent\",\"_id\":\"323e3b4b-bbef-42be-b4e4-e0768f2302f9_EarthFaultRen1_636777437920937727\"," +
                        "\"_score\":null,\"_source\":{\"Type\":\"EarthFaultRen1\",\"Start\":\"2018-11-13T22:09:52.0937727+01:00\",\"Asset\":" +
                        "{\"ParticipantId\":1,\"Description\":\"Berghaug\",\"ValidTo\":\"2115-01-07T19:17:13.867\",\"StSrid\":4326,\"Long\":" +
                        "\"10.05398\",\"ValidFrom\":\"1915-01-07T19:17:13.867\",\"Id\":44866,\"AssetGuid\":\"323e3b4b-bbef-42be-b4e4-e0768f2302f9\"" +

@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using eSmart.Core;
-using eSmart.Elastic.Core.Enums;
-using eSmart.Elastic.Core.Json;
-using eSmart.Elastic.Core.Search.Aggregations;
-using eSmart.Elastic.Core.Search.Interfaces;
-using eSmart.Elastic.Search.Helpers;
-using eSmart.Elastic.TypeMapping;
+using h73.Elastic.Core.Enums;
+using h73.Elastic.Core.Json;
+using h73.Elastic.Core.Search.Aggregations;
+using h73.Elastic.Core.Search.Interfaces;
+using h73.Elastic.Search.Helpers;
+using h73.Elastic.Search.Tests.Support;
+using h73.Elastic.TypeMapping;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class AggregationHelperTests

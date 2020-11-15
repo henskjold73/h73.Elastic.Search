@@ -1,13 +1,13 @@
 ﻿using System;
-using eSmart.Elastic.Core.Enums;
-using eSmart.Elastic.Core.Helpers;
-using eSmart.Elastic.Core.Json;
-using eSmart.Elastic.Core.Search.Aggregations;
-using eSmart.Elastic.Core.Search.Queries;
-using eSmart.Elastic.Search.Helpers;
+using h73.Elastic.Core.Enums;
+using h73.Elastic.Core.Helpers;
+using h73.Elastic.Core.Json;
+using h73.Elastic.Core.Search.Aggregations;
+using h73.Elastic.Core.Search.Queries;
+using h73.Elastic.Search.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class RenQueryTests

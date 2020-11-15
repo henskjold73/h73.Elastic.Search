@@ -1,10 +1,10 @@
 ﻿using System;
-using eSmart.Elastic.Core.Const;
-using eSmart.Elastic.Core.Search.Queries;
-using eSmart.Elastic.Search.Helpers;
+using h73.Elastic.Core.Const;
+using h73.Elastic.Core.Search.Queries;
+using h73.Elastic.Search.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class BooleanRotCastTests
@@ -97,7 +97,7 @@ namespace eSmart.Elastic.Search.Tests
             var json = q.ToJson();
 
             Assert.AreEqual("{\"query\":{\"bool\":{}},\"post_filter\":{\"bool\":{\"must\":" +
-                            "[{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedIndexedClass\"}}," +
+                            "[{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedIndexedClass\"}}," +
                             "{\"term\":{\"AString\":\"TERM\"}}]}},\"aggs\":{\"terms_AString\":{\"terms\":" +
                             "{\"field\":\"AString\"}}}}", json);
         }

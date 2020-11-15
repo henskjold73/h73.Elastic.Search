@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using eSmart.Elastic.Core.Data;
+using h73.Elastic.Core.Data;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     public class IndexedClass : IIndexedClass
     {

@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using eSmart.Elastic.Core.Const;
-using eSmart.Elastic.Core.Enums;
-using eSmart.Elastic.Core.Helpers;
-using eSmart.Elastic.Core.Search.Interfaces;
-using eSmart.Elastic.Core.Search.Queries;
+using h73.Elastic.Core.Const;
+using h73.Elastic.Core.Enums;
+using h73.Elastic.Core.Helpers;
+using h73.Elastic.Core.Search.Interfaces;
+using h73.Elastic.Core.Search.Queries;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class AssetMultipleSearchTests

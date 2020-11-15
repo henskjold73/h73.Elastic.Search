@@ -1,7 +1,6 @@
 ﻿using System;
-using eSmart.EarthFault.Categories;
 
-namespace eSmart.EarthFault
+namespace h73.Elastic.Search.Tests.Support
 {
     public class EarthFaultEvent
     {

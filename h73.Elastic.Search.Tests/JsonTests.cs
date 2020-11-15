@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using eSmart.Elastic.Core.Enums;
-using eSmart.Elastic.Core.Json;
-using eSmart.Elastic.Core.Search.Aggregations;
-using eSmart.Elastic.Core.Search.Interfaces;
-using eSmart.Elastic.Core.Search.Queries;
-using eSmart.Elastic.Core.Search.Results;
-using eSmart.Elastic.Search.Helpers;
+using h73.Elastic.Core.Enums;
+using h73.Elastic.Core.Json;
+using h73.Elastic.Core.Search.Aggregations;
+using h73.Elastic.Core.Search.Interfaces;
+using h73.Elastic.Core.Search.Queries;
+using h73.Elastic.Core.Search.Results;
+using h73.Elastic.Search.Helpers;
 using FizzWare.NBuilder;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class JsonTests
@@ -54,11 +54,11 @@ namespace eSmart.Elastic.Search.Tests
             var test0 = MockEnum.Test0;
             var test1_3 = MockEnum.Test1 | MockEnum.Test3;
             var expectedSingle =
-                "{\"query\":{\"bool\":{\"must\":[{\"match\":{\"MockEnum\":\"Test0\"}}],\"should\":[{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.IndexedClass\"}}," +
-                "{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}},{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}}}";
+                "{\"query\":{\"bool\":{\"must\":[{\"match\":{\"MockEnum\":\"Test0\"}}],\"should\":[{\"type\":{\"value\":\"h73.Elastic.Search.Tests.IndexedClass\"}}," +
+                "{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}},{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}}}";
             var expectedMultiple =
-                "{\"query\":{\"bool\":{\"must\":[{\"match\":{\"MockEnum\":\"Test1, Test3\"}}],\"should\":[{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.IndexedClass\"}}," +
-                "{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}},{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}}}";
+                "{\"query\":{\"bool\":{\"must\":[{\"match\":{\"MockEnum\":\"Test1, Test3\"}}],\"should\":[{\"type\":{\"value\":\"h73.Elastic.Search.Tests.IndexedClass\"}}," +
+                "{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}},{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}}}";
 
             // Act
             var querySingleEnum = new Query<IndexedClass>()
@@ -103,7 +103,7 @@ namespace eSmart.Elastic.Search.Tests
         [TestMethod]
         public void TopHits_Result()
         {
-            var json = "{\"hits\":{\"total\":1,\"max_score\":null,\"hits\":[{\"_index\":\"esmartdev_esmart_core_event\",\"_type\":\"eSmart.Elastic.Search.Tests.IndexedClass\",\"_id\":\"9af4387b-cecb-42e6-9e4b-a8bbca4cc662_EarthFault_636630941494510178\",\"_score\":null,\"_source\":{\"SomeNumber\":1,\"ObjectId\":\"00000000-0000-0000-0000-000000000001\",\"AString\":\"AString1\",\"Child\":null,\"Children\":null,\"DateTimeNotNullable\":\"2018-11-07T00:00:00\",\"DateTimeNullable\":\"2018-11-07T00:00:00\",\"ListStrings\":null,\"MockEnum\":0,\"MetaData\":null},\"sort\":[1527497349451]}]}}";
+            var json = "{\"hits\":{\"total\":1,\"max_score\":null,\"hits\":[{\"_index\":\"h73dev_h73_core_event\",\"_type\":\"h73.Elastic.Search.Tests.IndexedClass\",\"_id\":\"9af4387b-cecb-42e6-9e4b-a8bbca4cc662_EarthFault_636630941494510178\",\"_score\":null,\"_source\":{\"SomeNumber\":1,\"ObjectId\":\"00000000-0000-0000-0000-000000000001\",\"AString\":\"AString1\",\"Child\":null,\"Children\":null,\"DateTimeNotNullable\":\"2018-11-07T00:00:00\",\"DateTimeNullable\":\"2018-11-07T00:00:00\",\"ListStrings\":null,\"MockEnum\":0,\"MetaData\":null},\"sort\":[1527497349451]}]}}";
             
             var deserialized = JsonConvert.DeserializeObject<TopHitsResult<IndexedClass>>(json);
 
@@ -117,7 +117,7 @@ namespace eSmart.Elastic.Search.Tests
                        "{\"terms_AssetGuid\":{\"doc_count_error_upper_bound\":3,\"sum_other_doc_count\":1203,\"buckets\":[" +
                        "{\"key\":\"9af4387b-cecb-42e6-9e4b-a8bbca4cc662\",\"doc_count\":5,\"nested\":" +
                        "{\"buckets\":[{\"key\":\"Above120\",\"from\":120,\"doc_count\":1,\"tophits\":{\"hits\":{\"total\":1," +
-                       "\"max_score\":null,\"hits\":[{\"_index\":\"esmartdev_esmart_core_event\",\"_type\":\"eSmart.Elastic.Search.Tests.IndexedClass\"," +
+                       "\"max_score\":null,\"hits\":[{\"_index\":\"h73dev_h73_core_event\",\"_type\":\"h73.Elastic.Search.Tests.IndexedClass\"," +
                        "\"_id\":\"9af4387b-cecb-42e6-9e4b-a8bbca4cc662_EarthFault_636630941494510178\",\"_score\":null,\"_source\":{\"SomeNumber\":1," +
                        "\"ObjectId\":\"00000000-0000-0000-0000-000000000001\",\"AString\":\"AString1\",\"Child\":null,\"Children\":null," +
                        "\"DateTimeNotNullable\":\"2018-11-07T00:00:00\",\"DateTimeNullable\":\"2018-11-07T00:00:00\",\"ListStrings\":null," +

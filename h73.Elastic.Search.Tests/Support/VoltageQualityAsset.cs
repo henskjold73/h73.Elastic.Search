@@ -1,6 +1,4 @@
-﻿using eSmart.EarthFault;
-
-namespace eSmart.Elastic.Search.Tests.Support
+﻿namespace h73.Elastic.Search.Tests.Support
 {
     public class VoltageAsset : Asset
     {

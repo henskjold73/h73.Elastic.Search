@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using eSmart.Elastic.Core.Search.Aggregations;
-using eSmart.Elastic.Core.Search.Interfaces;
-using eSmart.Elastic.Search.Helpers;
+using h73.Elastic.Core.Search.Aggregations;
+using h73.Elastic.Core.Search.Interfaces;
+using h73.Elastic.Search.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class GeoHashGridTests

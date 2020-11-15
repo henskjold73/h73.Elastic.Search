@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace eSmart.EarthFault
+namespace h73.Elastic.Search.Tests.Support
 {
     public class Asset
     {

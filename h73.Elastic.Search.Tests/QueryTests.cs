@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using eSmart.Elastic.Core.Enums;
-using eSmart.Elastic.Core.Helpers;
-using eSmart.Elastic.Core.Search.Aggregations;
-using eSmart.Elastic.Core.Search.Interfaces;
-using eSmart.Elastic.Search.Helpers;
+using h73.Elastic.Core.Enums;
+using h73.Elastic.Core.Helpers;
+using h73.Elastic.Core.Search.Aggregations;
+using h73.Elastic.Core.Search.Interfaces;
+using h73.Elastic.Search.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class QueryTests
@@ -159,7 +159,7 @@ namespace eSmart.Elastic.Search.Tests
             var json2 = query2.ToJson();
 
             Assert.AreEqual("{\"query\":{\"bool\":{\"must\":[{\"match\":{\"Children.SomeNumber\":2}}]}}}", json1);
-            Assert.AreEqual("{\"query\":{\"bool\":{\"must\":[{\"nested\":{\"path\":\"Children\",\"query\":{\"bool\":{\"must\":[{\"match\":{\"Children.SomeNumber\":2}}]}}}}],\"should\":[{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.IndexedClass\"}},{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}},{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}}}", json2);
+            Assert.AreEqual("{\"query\":{\"bool\":{\"must\":[{\"nested\":{\"path\":\"Children\",\"query\":{\"bool\":{\"must\":[{\"match\":{\"Children.SomeNumber\":2}}]}}}}],\"should\":[{\"type\":{\"value\":\"h73.Elastic.Search.Tests.IndexedClass\"}},{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}},{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}}}", json2);
         }
 
     }

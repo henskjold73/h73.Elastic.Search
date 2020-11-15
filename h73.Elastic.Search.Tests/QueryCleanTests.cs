@@ -1,7 +1,7 @@
-﻿using eSmart.Elastic.Search.Helpers;
+﻿using h73.Elastic.Search.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class QueryCleanTests

@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq.Expressions;
-using eSmart.Core;
-using eSmart.Elastic.Core.Enums;
-using eSmart.Elastic.Core.Json;
-using eSmart.Elastic.Core.Response;
-using eSmart.Elastic.Core.Search.Results;
-using eSmart.Elastic.Search.Helpers;
+using h73.Elastic.Core.Enums;
+using h73.Elastic.Core.Json;
+using h73.Elastic.Core.Response;
+using h73.Elastic.Core.Search.Results;
+using h73.Elastic.Search.Helpers;
+using h73.Elastic.Search.Tests.Support;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class TopHitsAggsTests

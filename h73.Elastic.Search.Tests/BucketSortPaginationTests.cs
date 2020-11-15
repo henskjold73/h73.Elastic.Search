@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using eSmart.EarthFault;
-using eSmart.Elastic.Core.Enums;
-using eSmart.Elastic.Search.Helpers;
+using h73.Elastic.Core.Enums;
+using h73.Elastic.Search.Helpers;
+using h73.Elastic.Search.Tests.Support;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class BucketSortPaginationTests
@@ -17,7 +17,7 @@ namespace eSmart.Elastic.Search.Tests
             var q = new Query<EarthFaultEvent>()
                 .TermsAggregation(x=>x.Type, null, AggregationsHelper.BucketSortAggregation("bucket_sort",null,1,23));
             var qJson = q.ToJson();
-            Assert.AreEqual("{\"query\":{\"bool\":{\"should\":[{\"type\":{\"value\":\"eSmart.EarthFault.EarthFaultEvent\"}}]," +
+            Assert.AreEqual("{\"query\":{\"bool\":{\"should\":[{\"type\":{\"value\":\"h73.Elastic.Search.Tests.Support.EarthFaultEvent\"}}]," +
                             "\"minimum_should_match\":1}},\"aggs\":{\"terms_Type\":{\"terms\":{\"field\":\"Type\"},\"aggs\":{\"BucketSort\":{\"bucket_sort\":{\"size\":1,\"from\":23}}}}}}", qJson);
         }
 
@@ -49,7 +49,7 @@ namespace eSmart.Elastic.Search.Tests
             
             var qJson = q.ToJson();
 
-            Assert.AreEqual("{\"query\":{\"bool\":{\"should\":[{\"type\":{\"value\":\"eSmart.EarthFault.EarthFaultEvent\"}}],\"minimum_should_match\":1}}," +
+            Assert.AreEqual("{\"query\":{\"bool\":{\"should\":[{\"type\":{\"value\":\"h73.Elastic.Search.Tests.Support.EarthFaultEvent\"}}],\"minimum_should_match\":1}}," +
                             "\"aggs\":{\"terms_Type\":{\"terms\":{\"field\":\"Type\"},\"aggs\":{\"BucketSort\":{\"bucket_sort\":{\"sort\":[{\"terms_Type\":\"Asc\"}," +
                             "{\"terms_Type\":\"Desc\"}],\"size\":10,\"from\":0}}}}}}", qJson);
         }

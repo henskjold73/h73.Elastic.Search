@@ -1,14 +1,14 @@
 ﻿using System.Linq;
-using eSmart.Elastic.Core.Enums;
-using eSmart.Elastic.Core.Helpers;
-using eSmart.Elastic.Core.Json;
-using eSmart.Elastic.Core.Search.Aggregations;
-using eSmart.Elastic.Core.Search.Results;
-using eSmart.Elastic.Search.Helpers;
+using h73.Elastic.Core.Enums;
+using h73.Elastic.Core.Helpers;
+using h73.Elastic.Core.Json;
+using h73.Elastic.Core.Search.Aggregations;
+using h73.Elastic.Core.Search.Results;
+using h73.Elastic.Search.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class ComplexAggregationsTests
@@ -81,7 +81,7 @@ namespace eSmart.Elastic.Search.Tests
 
             var json = q1.ToJson();
             Assert.AreEqual(
-                "{\"query\":{\"bool\":{\"should\":[{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.IndexedClass\"}},{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}},{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}},\"aggs\":{\"nested_Children_0\":{\"nested\":{\"path\":\"Children\"},\"aggs\":{\"nested\":{\"terms\":{\"field\":\"Children.AString\",\"size\":10,\"order\":{\"_key\":\"desc\"}},\"aggs\":{\"Sum\":{\"sum\":{\"field\":\"SomeNumber\"}},\"nested\":{\"range\":{\"ranges\":[{\"key\":\"SomeKey\",\"to\":24}],\"field\":\"Children.SomeNumber\"},\"aggs\":{\"nested\":{\"range\":{\"ranges\":[{\"key\":\"SomeKey1\",\"to\":12},{\"key\":\"SomeKey2\",\"from\":31}],\"field\":\"Children.SomeNumber\"}}}}}}}}}}",
+                "{\"query\":{\"bool\":{\"should\":[{\"type\":{\"value\":\"h73.Elastic.Search.Tests.IndexedClass\"}},{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}},{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}},\"aggs\":{\"nested_Children_0\":{\"nested\":{\"path\":\"Children\"},\"aggs\":{\"nested\":{\"terms\":{\"field\":\"Children.AString\",\"size\":10,\"order\":{\"_key\":\"desc\"}},\"aggs\":{\"Sum\":{\"sum\":{\"field\":\"SomeNumber\"}},\"nested\":{\"range\":{\"ranges\":[{\"key\":\"SomeKey\",\"to\":24}],\"field\":\"Children.SomeNumber\"},\"aggs\":{\"nested\":{\"range\":{\"ranges\":[{\"key\":\"SomeKey1\",\"to\":12},{\"key\":\"SomeKey2\",\"from\":31}],\"field\":\"Children.SomeNumber\"}}}}}}}}}}",
                 json);
         }
 
@@ -92,9 +92,9 @@ namespace eSmart.Elastic.Search.Tests
                 AggregationsHelper.SumAggregation<IndexedClass>(sum => sum.SomeNumber));
             var json = q1.ToJson();
             const string r1 =
-                "{\"query\":{\"bool\":{\"should\":[{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.IndexedClass\"}}," +
-                "{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}}," +
-                "{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}}," +
+                "{\"query\":{\"bool\":{\"should\":[{\"type\":{\"value\":\"h73.Elastic.Search.Tests.IndexedClass\"}}," +
+                "{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}}," +
+                "{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}}," +
                 "\"aggs\":{\"terms_AString\":{\"terms\":{\"field\":\"AString\",\"size\":5},\"aggs\":{\"Sum\":{\"sum\":{\"field\":\"SomeNumber\"}}}}}}";
             Assert.AreEqual(r1, json);
         }
@@ -106,7 +106,7 @@ namespace eSmart.Elastic.Search.Tests
                 .NestedAggregation(ic => ic.Children);
             var json = q1.ToJson();
             const string r1 =
-                "{\"query\":{\"bool\":{\"should\":[{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.IndexedClass\"}},{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}},{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}},\"aggs\":{\"nested_Children_0\":{\"nested\":{\"path\":\"Children\"}},\"nested_Children_1\":{\"nested\":{\"path\":\"Children\"}}}}";
+                "{\"query\":{\"bool\":{\"should\":[{\"type\":{\"value\":\"h73.Elastic.Search.Tests.IndexedClass\"}},{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}},{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}},\"aggs\":{\"nested_Children_0\":{\"nested\":{\"path\":\"Children\"}},\"nested_Children_1\":{\"nested\":{\"path\":\"Children\"}}}}";
             Assert.AreEqual(r1, json);
         }
 

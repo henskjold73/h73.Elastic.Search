@@ -1,8 +1,8 @@
-﻿using eSmart.Elastic.Core.Helpers;
-using eSmart.Elastic.Search.Helpers;
+﻿using h73.Elastic.Core.Helpers;
+using h73.Elastic.Search.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class ExpressionTests
@@ -23,9 +23,9 @@ namespace eSmart.Elastic.Search.Tests
         public void DateHistogram_Expression()
         {
             var json = new Query<IndexedClass>().DateHistogramAggregation(ic=>ic.MetaData.MetaPropertyName(i=>i.Mock4),"week").ToJson();
-            Assert.AreEqual(json,"{\"query\":{\"bool\":{\"should\":[{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.IndexedClass\"}}," +
-                                 "{\"type\":{\"value\":\"eSmart.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}},{\"type\":" +
-                                 "{\"value\":\"eSmart.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}},\"aggs\":" +
+            Assert.AreEqual(json,"{\"query\":{\"bool\":{\"should\":[{\"type\":{\"value\":\"h73.Elastic.Search.Tests.IndexedClass\"}}," +
+                                 "{\"type\":{\"value\":\"h73.Elastic.Search.Tests.InheritedGenericIndexedClass`1\"}},{\"type\":" +
+                                 "{\"value\":\"h73.Elastic.Search.Tests.InheritedIndexedClass\"}}],\"minimum_should_match\":1}},\"aggs\":" +
                                  "{\"datehistogram_MetaData.Mock4\":{\"date_histogram\":{\"interval\":\"week\",\"field\":\"MetaData.Mock4\"}}}}");
         }
     }

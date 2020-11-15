@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using eSmart.Elastic.Core.Search.Queries;
+using h73.Elastic.Core.Search.Queries;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace eSmart.Elastic.Search.Tests
+namespace h73.Elastic.Search.Tests
 {
     [TestClass]
     public class InterfaceTests

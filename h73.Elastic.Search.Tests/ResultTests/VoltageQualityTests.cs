@@ -1,10 +1,9 @@
-﻿using eSmart.Core;
-using eSmart.Elastic.Core.Json;
-using eSmart.Elastic.Search.Tests.Support;
+﻿using h73.Elastic.Core.Json;
+using h73.Elastic.Search.Tests.Support;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 
-namespace eSmart.Elastic.Search.Tests.ResultTests
+namespace h73.Elastic.Search.Tests.ResultTests
 {
     [TestClass]
     public class VoltageQualityTests
